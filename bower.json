@@ -1,0 +1,24 @@
+{
+  "name": "Pasadena Complete Streets Coalition",
+  "version": "0.0.0",
+  "homepage": "http://www.pas-csc.org",
+  "authors": [
+    "Rishi Verma <riverma@gmail.com>"
+  ],
+  "description": "An organization promoting \"Complete Streets\" in Pasadena, California",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery": "~3.1.1",
+    "font-awesome": "~4.7.0"
+  }
+}

@@ -1,0 +1,8 @@
+// customizations
+#jumbotron-title {
+  font-size: 3em;
+}
+
+blockquote footer {
+	color: black;
+}
