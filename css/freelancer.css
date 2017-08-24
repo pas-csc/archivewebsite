@@ -52,11 +52,10 @@ hr.star-odd {
 header {
   text-align: center;
   //background: #000;
-  background: url('../img/PasadenaCityHallPanorama2012_11_02.jpg');
-  background-size: cover;
 }
+
 header .container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 header img {
@@ -88,7 +87,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-fixed-top {
-    padding: 25px 0;
+    padding: 5px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -100,7 +99,7 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
   .navbar-fixed-top.navbar-shrink {
-    padding: 10px 0;
+    padding: 5px 0;
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -156,6 +155,10 @@ section.odd a:active,
 section.odd a.active {
   color: #ecf0f1;
   outline: none;
+}
+
+section.photo1 {
+		background: url('../img/2014-CityHall.jpg');
 }
 @media (max-width: 767px) {
   section {
@@ -285,7 +288,7 @@ footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top: 10px;
   background-color: #303030;
 }
 footer .footer-col {
@@ -401,5 +404,8 @@ footer .footer-below {
 .row-buffer {
   margin-top: 25px;
 }
-
-
+#join-us {
+	background: url('../img/2014-CityHall.jpg');
+	background-size: cover;
+	color: white
+}
