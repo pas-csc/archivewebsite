@@ -26,9 +26,26 @@ blockquote footer {
 	border-color: #ab1626;
 }
 
+/* Custom Freelancer theme style overrides */
+.row-buffer {
+  margin-top: 25px;
+}
+
+
 /* Custom components styles */
 #construction-alert {
   width: 20% !important;
+}
+
+#join-us {
+	background: url('../img/2014-CityHall.jpg');
+	background-size: cover;
+	color: white
+}
+
+#header {
+  background: url('../img/pasadena_map_filter.png');
+  background-size: cover;
 }
 
 .alert-fixed {
