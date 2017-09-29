@@ -2,10 +2,15 @@
 p {
   font-family: 'Montserrat';
   font-size: 1em;
+  padding-top: 15px;
 }
 
 p.subtitle {
   font-size: 1.2em;
+}
+
+img {
+  border: 2px black solid;
 }
 
 blockquote footer {
