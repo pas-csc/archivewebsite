@@ -9,6 +9,10 @@ p.subtitle {
   font-size: 1.2em;
 }
 
+a.highlight {
+  color: purple !important;
+}
+
 img {
   border: 2px black solid;
 }
@@ -60,4 +64,12 @@ blockquote footer {
     width: 100%;
     z-index:9999;
     border-radius:0px;
+}
+
+.glyphicon-large {
+  font-size: 3em;
+}
+
+.img-noborder {
+  border: 0px;
 }
