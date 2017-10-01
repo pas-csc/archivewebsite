@@ -1,8 +1,79 @@
-// customizations
-#jumbotron-title {
-  font-size: 3em;
+/* custom HTML component styles */
+p {
+  font-family: 'Montserrat';
+  font-size: 1em;
+  padding-top: 15px;
+}
+
+p.subtitle {
+  font-size: 1.2em;
+}
+
+a.highlight {
+  color: purple !important;
+}
+
+a.nohighlight {
+  color: black !important;
+}
+
+img {
+  border: 2px black solid;
 }
 
 blockquote footer {
 	color: black;
+}
+
+
+/* Custom Bootstrap style overrides */
+.btn-info {
+	color: #f9f7f4;
+	background-color: #c01d2e;
+	border-color: #ab1626;
+}
+
+.btn-info:hover  {
+	color: #f9f7f4;
+	background-color: red;
+	border-color: #ab1626;
+}
+
+/* Custom Freelancer theme style overrides */
+.row-buffer {
+  margin-top: 25px;
+}
+
+
+/* Custom components styles */
+#construction-alert {
+  width: 20% !important;
+}
+
+#join-us {
+	background: url('../img/2014-CityHall.jpg');
+	background-size: cover;
+	color: white
+}
+
+#header {
+  background: url('../img/pasadena_map_filter.png');
+  background-size: cover;
+}
+
+.alert-fixed {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index:9999;
+    border-radius:0px;
+}
+
+.glyphicon-large {
+  font-size: 3em;
+}
+
+.img-noborder {
+  border: 0px;
 }

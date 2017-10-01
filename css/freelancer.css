@@ -400,12 +400,3 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
-
-.row-buffer {
-  margin-top: 25px;
-}
-#join-us {
-	background: url('../img/2014-CityHall.jpg');
-	background-size: cover;
-	color: white
-}
