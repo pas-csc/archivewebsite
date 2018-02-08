@@ -9,6 +9,10 @@ p.subtitle {
   font-size: 1.2em;
 }
 
+p.footnote {
+  font-size:0.8em;
+}
+
 a.highlight {
   color: purple !important;
 }
@@ -31,6 +35,8 @@ blockquote footer {
 	color: #f9f7f4;
 	background-color: #c01d2e;
 	border-color: #ab1626;
+    font-size: 1.3em;
+
 }
 
 .btn-info:hover  {
