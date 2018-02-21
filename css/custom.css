@@ -9,6 +9,10 @@ p.subtitle {
   font-size: 1.2em;
 }
 
+p.alert {
+  font-size: 3rem;
+}
+
 p.footnote {
   font-size:0.8em;
 }
